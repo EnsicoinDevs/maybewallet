@@ -1,4 +1,56 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+#balance-card {
+  border-radius: 0;
+
+  ion-card-header {
+    padding: 42px var(--ion-padding, 16px);
+  }
+
+  #balance {
+    font-size: 25px;
+
+    #balance-unit {
+      font-size: 12px;
+    }
+  }
+}
+
+.white-btn {
+  --color: #ffffff;
+  --color-activated: #ffffff;
+  --color-focused: #ffffff;
+  --ion-color-contrast: #ffffff !important;
+}
+
+ion-avatar {
+  background: var(--ion-toolbar-background);
+}
+
+.number-avatar {
+  margin: 0;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.icon-avatar {
+  font-size: 34px;
+  padding: 3px;
+}
+
+.ion-color-white {
+  --ion-color-base: #ffffff;
+  --ion-color-base-rgb: 255,255,255;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255,255,255;
+  --ion-color-shade: #ffffff;
+  --ion-color-tint: #ffffff;
+}
+
+.ion-color-red {
+  --ion-color-base: #b24c5d;
+  --ion-color-base-rgb: 178,76,93;
+  --ion-color-contrast: #b24c5d;
+  --ion-color-contrast-rgb: 178,76,93;
+  --ion-color-shade: #b24c5d;
+  --ion-color-tint: #b24c5d;
 }
